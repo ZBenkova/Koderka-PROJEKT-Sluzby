@@ -3,7 +3,7 @@
     body {
         box-sizing: border-box;
         display: grid;
-        grid-template-columns: repeat(3, 30%);
+        grid-template-columns: auto;
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -13,13 +13,15 @@
     
     div {
         display: grid;
-        grid-column-start: 2;
-        grid-column-end: 2;
+        justify-content: center;
     }
     
     .nadpis {
         font-size: 28px;
         font-weight: medium;
+        text-align: center;
+        margin-bottom: 0;
+        justify-content: center;
     }
     
     h2 {
@@ -41,6 +43,7 @@
             border: 0px;
             opacity: 1;
             color: white;
+            max-width: 220px;
     
     }
     
@@ -82,9 +85,10 @@
     
     .traveler {
         margin-top: 60px;
-        margin-bottom: 60px;
-        display: grid;
-        
+        margin-bottom: 0px;
+        justify-content: center;
+        max-width: 100%;
+        margin-left: 60px;
     
     }
 
@@ -94,7 +98,7 @@
     body {
         box-sizing: border-box;
         display: grid;
-        grid-template-columns: repeat(3, 30%);
+        grid-template-columns: auto;
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -104,13 +108,15 @@
     
     div {
         display: grid;
-        grid-column-start: 2;
-        grid-column-end: 2;
+        justify-content: center;
     }
     
     .nadpis {
         font-size: 28px;
         font-weight: medium;
+        text-align: center;
+        margin-bottom: 0;
+        justify-content: center;
     }
     
     h2 {
@@ -132,6 +138,7 @@
             border: 0px;
             opacity: 1;
             color: white;
+            max-width: 220px;
     
     }
     
@@ -173,9 +180,10 @@
     
     .traveler {
         margin-top: 60px;
-        margin-bottom: 60px;
-        display: grid;
-        
+        margin-bottom: 0px;
+        justify-content: center;
+        max-width: 400px;
+        margin-left: 60px;
     
     }
    
