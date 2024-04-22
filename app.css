@@ -214,5 +214,116 @@
 
 }
 
-@media screen and (min-width: 110px)  {
+@media screen and (min-width: 1100px)  {
+    body {
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(2, 490px);
+        column-gap: 60px;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin: 60px 20px;
+        max-width: 1040px;
+        width: 1040px;
+        justify-content: center;
+      }
+
+    div {
+        display: grid;
+        margin: 0px 14%;
+    }
+
+    .traveler {
+        justify-content: center;
+        max-width: 90%;
+    }
+
+    .nadpis {
+        font-weight: medium;
+        text-align: center;
+        margin-bottom: 0;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: medium;
+    }
+
+    .odstavec {
+        text-align: center;
+        font-size: 16px;
+        font-weight: light;
+        line-height: 21px;
+    }
+
+    button {
+            padding: 10px;
+            border-radius: 20px;
+            border: 0px;
+            opacity: 1;
+            color: white;
+            width: 40%;
+            margin: 30px 10px 60px 20px;
+    }
+    .tlacitka {
+        display: flex;
+        justify-content: center;
+    }
+
+    .modry {
+        background: #407BFF 0% 0% no-repeat padding-box;
+
+        }
+
+    .sedy {
+        background: #8B8B8B 0% 0% no-repeat padding-box;
+
+    }
+    .obdelnicky {
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+    }
+
+.prvni {
+    margin-bottom: 80px;
+
+}
+
+    .obdelnicek {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 6px #407BFF1F;
+        border-radius: 10px;
+        opacity: 1;
+        display: grid;
+        grid-template-areas:
+        "a"
+        "b";
+        gap: 40px;
+        margin: 7.5px;
+        width: 90%;
+        padding: 8px 10px;
+        justify-content: center;
+    }
+    .obrazek {
+        grid-area: a;
+    }
+    .popisek {
+        grid-area: b;
+        font-size: 13px;
+    }
+    .carka {
+        width: 60px;
+        height: 2px;
+        background-color: #407BFF;
+        margin: 0px 45% 30px 45%;
+
+    }
+
 }
