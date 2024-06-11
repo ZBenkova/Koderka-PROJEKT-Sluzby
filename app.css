@@ -162,84 +162,84 @@
         margin-left: 109px;
         margin-right: 109px;
     }
-    }
-
     button {
-            padding: 10px;
-            border-radius: 20px;
-            border: 0px;
-            opacity: 1;
-            color: white;
-            width: 40%;
-            margin: 30px 10px 60px 20px;
-    }
-    .tlacitka {
-        display: flex;
-        justify-content: center;
+        padding: 10px;
+        border-radius: 20px;
+        border: 0px;
+        opacity: 1;
+        color: white;
+        width: 40%;
+        margin: 30px 10px 60px 20px;
+}
+.tlacitka {
+    display: flex;
+    justify-content: center;
+}
+
+.modry {
+    background: #407BFF 0% 0% no-repeat padding-box;
+    width: 195px;
+    height: 40px;
+
     }
 
-    .modry {
-        background: #407BFF 0% 0% no-repeat padding-box;
-        width: 195px;
-        height: 40px;
-
-        }
-
-    .sedy {
-        background: #8B8B8B 0% 0% no-repeat padding-box;
-        width: 220px;
-        height: 40px;
-    }
-    .obdelnicky {
-        display: grid;
-        grid-template-columns: repeat(3,auto);
-    }
+.sedy {
+    background: #8B8B8B 0% 0% no-repeat padding-box;
+    width: 220px;
+    height: 40px;
+}
+.obdelnicky {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
 
 .prvni {
-    margin-bottom: 80px;
+margin-bottom: 80px;
 
 }
 
-    .obdelnicek {
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        box-shadow: 0px 4px 6px #407BFF1F;
-        border-radius: 10px;
-        opacity: 1;
-        display: grid;
-        grid-template-areas:
-        "a"
-        "b";
-        gap: 40px;
-        margin: 10px;
-        width: 230px;
-        height: 172px;
-        padding: 8px 10px;
-        justify-content: center;
-    }
-    .obrazek {
-        grid-area: a;
-    }
-    .popisek {
-        grid-area: b;
-        font-size: 13px;
-        text-align: center;
-        margin-top: 0px;
-        margin-left: 21px;
-        margin-right: 21px;
-        margin-bottom: 15px;
-    }
-    .carka {
-        width: 60px;
-        height: 2px;
-        background-color: #407BFF;
-        margin: 0px 0px 0px 335px;
+.obdelnicek {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    opacity: 1;
+    display: grid;
+    grid-template-areas:
+    "a"
+    "b";
+    gap: 40px;
+    margin: 10px;
+    width: 230px;
+    height: 172px;
+    padding: 8px 10px;
+    justify-content: center;
+}
+.obrazek {
+    grid-area: a;
+}
+.popisek {
+    grid-area: b;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-bottom: 15px;
+}
+.carka {
+    width: 60px;
+    height: 2px;
+    background-color: #407BFF;
+    margin: 0px 0px 0px 335px;
 
-    }
+}
 
-    div.obrazek img {
-        margin: 40px 95px 0px 95px;
-    }
+div.obrazek img {
+    margin: 40px 95px 0px 95px;
+}
+}
 
+   
 @media screen and (min-width: 1100px)  {
     body {
         background-color: #fafafa;
@@ -269,7 +269,7 @@ div {
         margin-left: 94px;
     }
         /* grid-area: 2; */
-    }
+    
 
     h1 {
         font-size: 28px;
